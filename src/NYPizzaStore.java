@@ -1,3 +1,5 @@
+// creator class
+
 public class NYPizzaStore extends PizzaStore {
 
 	@Override

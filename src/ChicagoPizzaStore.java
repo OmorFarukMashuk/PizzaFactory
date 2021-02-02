@@ -1,3 +1,5 @@
+// creator class
+
 public class ChicagoPizzaStore extends PizzaStore {
 
 	@Override
@@ -13,14 +15,3 @@ public class ChicagoPizzaStore extends PizzaStore {
 	}
 
 }
-
-//if (type.equals("cheese")) {
-//	return new NYStCheesePizza();
-//} else if (type.equals("pepperoni")) {
-//	return new ChicagoStyleVeggiePizza();
-//} else if (type.equals("clam")) {
-//	return new ChicagoStyleCheesePizza();
-//} else if (type.equals("veggie")) {
-//	return new NYStyleVeggiePizza();
-//} else
-//	return null;
