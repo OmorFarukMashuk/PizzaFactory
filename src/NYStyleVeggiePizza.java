@@ -1,15 +1,16 @@
 
 public class NYStyleVeggiePizza extends Pizza{
 
-	@Override
-	public void preapare() {
+	public NYStyleVeggiePizza() {
 		// TODO Auto-generated method stub
 		
-		name = "NY Style Sauce and Cheese Pizza";
+		name = "NY Style Sauce and Veggie Pizza";
 		dough = "Thin Crust Dough";
 		sauce = "Marinara Sauce";
 		
-		toppings.add("Grated Reggiano Cheese");
+		toppings.add("Mushroom");
+		toppings.add("Black olive");
+
 		
 	}
 
@@ -19,6 +20,12 @@ public class NYStyleVeggiePizza extends Pizza{
 		System.out.println("Bake for 25 mins at 350");
 
 		
+	}
+
+	@Override
+	public void cut() {
+		System.out.println("Cutting the pizza into diagonal slices");
+
 	}
 
 }

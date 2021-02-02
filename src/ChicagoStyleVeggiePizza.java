@@ -1,14 +1,16 @@
 
-public class ChicagoStyleCheesePizza extends Pizza{
+public class ChicagoStyleVeggiePizza extends Pizza{
 
-	public ChicagoStyleCheesePizza() {
+	public ChicagoStyleVeggiePizza() {
 		// TODO Auto-generated method stub
 		
-		name = "Chicago Style Sauce and Cheese Pizza";
+		name = "Chicago Style Sauce and Veggie Pizza";
 		dough = "Thick Crust Dough";
 		sauce = "Marinara Sauce";
 		
-		toppings.add("Grated Reggiano Cheese");
+		toppings.add("Mushroom");
+		toppings.add("Black olive");
+
 		
 	}
 

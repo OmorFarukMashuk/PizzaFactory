@@ -3,13 +3,21 @@ import java.util.List;
 
 public abstract class Pizza {
 
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
 	String name;
 	String dough;
 	String sauce;
 	List<String> toppings = new ArrayList<String>();
 
-	public void preapare() {
-		System.out.println("Preparing " + name);
+	public void prepare() {
+		System.out.println("\nPreparing " + name);
 		System.out.println("Tossing dough...");
 		System.out.println("adding sauce...");
 		System.out.println("Adding toppings...");
@@ -22,13 +30,10 @@ public abstract class Pizza {
 
 	public abstract void bake();
 	
-	public void cut() {
-		System.out.println("Cutting the pizza into diagonal slices");
-
-	}
+	public abstract void cut();
 
 	public void box() {
-		System.out.println("Place pizza into diagonal box");
+		System.out.println("Place pizza in official pizzastore box");
 
 	}
 
