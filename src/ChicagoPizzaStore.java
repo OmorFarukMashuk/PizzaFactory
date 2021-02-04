@@ -3,7 +3,7 @@
 public class ChicagoPizzaStore extends PizzaStore {
 
 	@Override
-	protected Pizza createPizza(String type) {
+	protected Pizza createPizza(String type) { // factory method called and overriden here 
 		// TODO Auto-generated method stub
 
 		if (type.equals("cheese")) {
